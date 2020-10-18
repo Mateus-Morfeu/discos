@@ -1,0 +1,352 @@
+@font-face{
+	font-family: akira;
+	src: url('fonts/Akira-Expanded-Demo.otf');
+}
+@font-face{
+	font-family: noodle;
+	src: url('fonts/big_noodle_titling_oblique.ttf');
+}
+@font-face{
+	font-family: peace;
+	src: url('fonts/Peace-Sans.otf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	overflow-x: hidden;	
+}
+header h1{
+	color: white;
+	font-family: akira;
+	padding-left: 5px;
+}
+header h1::after{
+	content: 'bee';
+	color: #f7d917;
+}
+header{
+	width: 100%;
+	background-color: rgb(10, 10, 10);
+	height: auto;
+}
+/*https://www.publicdomainpictures.net/pictures/300000/velka/vinyl-record.png*/
+
+
+
+.ap{
+	width: 100%;
+	height: 500px;
+	background-color: #f7d917;
+	display: flex;
+	flex-direction: row;
+}
+.ap .text{
+	width: 70%;
+	height: 100%;
+	background-color: rgb(25, 25, 25);
+	z-index: 2;
+	box-shadow: 0 0 10px black; 
+}
+.ap img{
+	width: 450px;
+	height: 450px;
+	float: right;
+	margin-top: 25px;
+	position: absolute;
+	transform: translateX(800px);
+	background-color: ;
+	border-radius: 50%;
+	box-shadow: 0 0 5px black;
+}
+.text h1{
+	font-family: noodle;
+	color: white;
+	font-size: 150px;
+	margin-left: 20px;
+	transform: translateY(-15px);
+	position: absolute;
+	text-align: center;
+	width: 60%;
+}
+.text h1::after{
+	content: '  do mercado "';
+	color: #f7d917;
+}
+.text h1::before{
+	content: '"melhor linha';
+	color: #f7d917;
+}
+ 
+
+
+.opc{
+	height: 320px;
+	width: 100%;
+	background-color: rgb(20, 20, 20);
+	padding-top: 50px;
+}
+/*
+https://4.bp.blogspot.com/-Abu9vIg-ms4/UkHUL1IsPxI/AAAAAAAACno/Ja1X29Hp0bk/s1600/capa-timmaia.jpg
+https://i.pinimg.com/originals/cb/10/43/cb1043a8ac84116d5cd798acb333d5b4.jpg
+https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2020/01/Black-Sabbath-Black-Sabbath-1970-696x684.jpg
+https://images-na.ssl-images-amazon.com/images/I/417jA2trK1L._AC_SY355_.jpg
+https://images-na.ssl-images-amazon.com/images/I/51rNyG6uQCL._AC_.jpg
+https://images-na.ssl-images-amazon.com/images/I/41FMYFYWP1L.jpg
+*/
+.info{
+	margin: 0 auto;
+	width: 1180px;
+	background-color: #f7d917;
+	height: 280px;
+	box-shadow: 0 0 10px black;
+}
+.info img{
+ 	width: 280px;
+ 	position: absolute;
+ 	box-shadow: 0 0 10px black;
+ 	margin: auto;
+ 	transition-duration: .3s;
+}
+.maia{
+	transform: translateX(0px);
+	z-index: 8;
+}
+.maia:hover{
+	z-index: 8;
+	width: 290px;
+}
+.pinkf{
+	transform: translateX(150px);
+	z-index: 7;
+}
+.pinkf:hover{
+	z-index: 8;
+	width: 290px;
+}
+.bs{
+	transform: translateX(300px);
+	z-index: 6;
+}
+.bs:hover{
+	z-index: 8;
+	width: 290px;
+}
+.black{
+	transform: translateX(450px);
+	z-index: 5;
+}
+.black:hover{
+	z-index: 8;
+	width: 290px;
+}
+.kansas{
+	transform: translateX(600px);
+	z-index: 4;
+}
+.kansas:hover{
+	z-index: 8;
+	width: 290px;
+}
+.animals{
+	transform: translateX(750px);
+	z-index: 3;
+}
+.animals:hover{
+	z-index: 8;
+	width: 290px;
+}
+.acdc{
+	transform: translateX(900px);
+	z-index: 2;
+}
+.acdc:hover{
+	z-index: 8;
+	width: 290px;
+}
+
+
+
+
+.agradecimentos{
+	height: 200px;
+	width: 100%;
+	background-color: rgb(30, 30, 30);
+	color: white;
+}
+.agradecimentos p{
+	font-family: Constantia;
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 52px;
+}
+
+
+
+.login{
+	height: 510px;
+	background-color: rgb(20, 20, 20);
+	background-image:linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .7)), url('https://images.pexels.com/photos/289806/pexels-photo-289806.jpeg?cs=srgb&dl=pexels-289806.jpg&fm=jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 600px;
+	box-shadow: 0 0 10px black;
+	border-bottom: solid 4px #f7d917;
+}
+.log img{
+	width: 150px;      
+	border-radius: 50%;
+	margin: 0 auto;
+	background-color:#f7d917;
+	border: solid 3px #f7d917; 
+}
+.log{
+	height: 430px;
+	width: 330px;
+	background-color: rgb(30, 30, 30);
+	display: grid;
+	position: absolute;
+	transform: translateX(240%);
+	margin-top: 20px;
+	padding: 20px;
+	grid-gap: 10px;
+	text-align: center;
+	border-radius: 20px;
+	font-weight: bold;
+	color: white;
+	box-shadow: 0 0 10px black; 
+}
+.log input[type="button"]{
+	width: 50%;
+	margin: 0 auto;
+	border: solid 3px #f7d917;
+	border-radius: 20px;
+	background-color: rgb(30, 30, 30);
+	color: #f7d917;
+}
+.log input[type="button"]:hover{
+	background-color: #f7d917;
+	color: black;
+}
+.log input[type="email"],input[type="password"]{
+	height: 20px;
+	width: 80%;
+	margin: 0 auto;
+	border: solid 3px #f7d917;
+	border-radius: 8px;
+	background-color: rgb(30, 30, 30);
+	padding-left: 3px;
+	color: #f7d917;
+}
+.listra{
+	position: absolute;
+	width: 100%;
+	height: 90px;
+	transform: translateY(230px);
+	box-shadow: 0 0 10px black;
+}
+.listra .l1{
+	background-color: rgb(30, 30, 30);
+	width: 100%;
+	height: 30px;
+}
+.listra .l2{
+	background-color: #f7d917;
+	width: 100%;
+	height: 30px;
+}
+.listra .l3{
+	background-color: rgb(30, 30, 30);
+	width: 100%;
+	height: 30px;
+}
+
+
+
+.link{
+	height: 60px;
+	width: 100%;
+	background-color: rgb(20, 20, 20);
+}
+
+.linka{
+	height: 40px;
+	margin: 0 auto;
+	width: 90%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 5px;
+	grid-gap: 10%;
+	padding-top: 10px;
+}
+.linka a{
+	text-align: center;
+	background-color: #f7d917;
+	font-size: 20px;
+	border-radius: 12px;
+	color: rgb(20, 20, 20);
+	text-decoration: none;
+	padding-taop: 4px;
+	box-shadow: 0 0 10px black;
+	transition-duration: .2s;
+	font-family: noodle;
+	border: solid 4px rgb(0, 0, 0);
+}
+.linka a:hover{
+	background-color: rgba(0, 0, 0, 0);
+	border: solid 4px #f7d917;
+	color: #f7d917;
+	padding-top: 0;
+}
+
+footer div img{
+	width: 90px;
+	border-radius: 50%;
+	background-color: black;
+}
+footer{
+	background-color: black;
+	padding: 20px;
+	border-top: solid 3px #f7d917;
+}
+footer div{
+	background-color: rgb(20, 20, 20);
+	padding: 20px;
+	width: 500px;
+	border-radius: 20px;
+}
+footer div span a{
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+	position: absolute;
+	transform:translateY(30px);
+	padding-left: 20px;
+	font-family: noodle;
+
+}
+footer div span a:hover{
+	color: #f7d917;
+}
+footer a img{
+	width: 25px;
+	padding-top: 0;
+	padding-right: 6px;
+	border-radius: 50%;
+
+}
+footer p{
+	color: white;
+	position: absolute;
+	transform: translateX(500%);
+}
+footer h4{
+	color: white;
+	position: absolute;
+	width: 300px;
+	transform: translateX(340%) translateY(-100px);
+	text-align: center;
+}
